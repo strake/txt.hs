@@ -15,6 +15,9 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      .
   exposed-modules:     Data.Text
+                     , Data.Text.Lazy
+  other-modules:       Data.Text.Lazy.Private
+                     , Data.Text.Private
   build-depends:       base >= 4.7 && < 5
                      , bytestring >=0.10 && <0.11
                      , deepseq >=1.1 && <1.5
